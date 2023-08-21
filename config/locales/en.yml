@@ -3,7 +3,10 @@ en:
   params:
     invalid: 'invalid parameters'
   user:
+    destroy:
+      success: 'destroy successful'
     validates:
+      not_found: 'user not found'
       email: 'email already exists!'
       username: 'username already exists!'
   phone:
